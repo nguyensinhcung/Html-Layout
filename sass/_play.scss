@@ -1,0 +1,30 @@
+.play{
+    background-image: url('../images/background.svg');
+    background-repeat: no-repeat;
+    margin-top: -24em;
+    &-title{
+        text-align: center;
+    }
+}
+.image{
+    &-earn{
+        height:26em;
+        position:relative;
+        z-index:99;
+    }
+    &-noun1{
+        position:absolute;
+        left:0%;
+        transform:translateY(-250%);
+    }
+    &-noun2{
+        position:absolute;
+        right:55%;
+        transform:translateY(-160%);
+    }
+    &-noun3{
+        position:absolute;
+        right:50%;
+        transform:translateY(-350%);
+    }
+}

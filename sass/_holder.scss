@@ -1,0 +1,8 @@
+.holder{
+    &-space{
+        transform:translateY(-20%);
+    }
+    &-holder{
+        filter:blur(20em);
+    }
+}
