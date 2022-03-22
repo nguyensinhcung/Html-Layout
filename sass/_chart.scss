@@ -1,0 +1,11 @@
+.chart{
+    &-cr{
+        position:relative;
+    }
+    &-content{
+        position:absolute;
+        right:66%;
+        margin:0 auto;
+        transform: translateY(260%);
+    }
+}

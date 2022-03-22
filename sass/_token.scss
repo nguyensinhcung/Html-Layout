@@ -1,5 +1,47 @@
-// .token{
-//     &-space{
-//         // transform: translateY(-150%);
-//     }
-// }
+.token{
+    position:relative;
+    
+    &::after{
+        display: block;
+        content:"";
+        position:absolute;
+        background:#FFFF00;
+        height:402px;
+        width:402px;
+        left:26%;
+        top:0%;
+        z-index: 0;
+        opacity: 0.4;
+        filter: blur(324px);
+        transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+    &::before{
+        display: block;
+        content:"";
+        z-index: 0;
+        position:absolute;
+        background:#FF1919;
+        height:402px;
+        width:402px;
+        left:44%;
+        bottom:0%;
+        opacity: 0.5;
+        filter: blur(324px);
+        transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+}
+.info{
+    z-index: 100;
+    &-image{
+        max-width:360px;
+        height:360px;
+    }
+    &-item{
+        margin-left:-80px;
+    }
+    &-content{
+        position:relative;
+        left:0%;
+        bottom:41%;
+    }
+}

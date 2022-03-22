@@ -1,30 +1,69 @@
 .play{
     background-image: url('../images/background.svg');
     background-repeat: no-repeat;
-    margin-top: -24em;
+    margin-top: -16em;
+    position:relative;
     &-title{
         text-align: center;
     }
 }
 .image{
+    
     &-earn{
-        height:26em;
         position:relative;
-        z-index:99;
+        z-index: 1;
+        max-width: 496px;
+        height:620px;
     }
     &-noun1{
         position:absolute;
-        left:0%;
-        transform:translateY(-250%);
+        right:90%;
+        top:22%;
     }
     &-noun2{
         position:absolute;
-        right:55%;
-        transform:translateY(-160%);
+        left: 30%;
+        top:16%;
     }
     &-noun3{
         position:absolute;
-        right:50%;
-        transform:translateY(-350%);
+        left:36%;
+        top:4%;
+    }
+    &-logo{
+        position:absolute;
+        left:14%;
+        z-index:3;
+        bottom:46%;
+    }
+    &-play{
+        position:absolute;
+        z-index: 3;
+        max-height:66px;
+        left:13%;
+        bottom:34%;
+    }
+}
+.button{
+    &-content{
+        position:absolute;
+        z-index:6;
+        left:22%;
+        bottom:34%;
+    }
+    &-sharp{
+        position:absolute;
+        z-index: 5;
+        left:0%;
+        max-height:34px;
+        left:16%;
+        bottom:36%;
+    }
+    &-play{
+        position:absolute;
+        max-height:16px;
+        z-index: 6;
+        left: 18%;
+        bottom: 37%;
     }
 }
