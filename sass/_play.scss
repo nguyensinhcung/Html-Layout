@@ -3,69 +3,11 @@
     background-repeat: no-repeat;
     margin-top: -16em;
     background-size:cover;
-    position:relative;
+    position:relative !important;
     &-title{
         text-align: center;
     }
 }
 .image{
-    
-    &-earn{
-        position:relative;
-        
-        z-index: 1;
-        max-width: 496px;
-        height:620px;
-    }
-    &-noun1{
-        position:absolute;
-        right:90%;
-        top:22%;
-    }
-    &-noun2{
-        position:absolute;
-        left: 30%;
-        top:16%;
-    }
-    &-noun3{
-        position:absolute;
-        left:36%;
-        top:4%;
-    }
-    &-logo{
-        position:absolute;
-        left:14%;
-        z-index:3;
-        bottom:46%;
-    }
-    &-play{
-        position:absolute;
-        z-index: 3;
-        max-height:66px;
-        left:13%;
-        bottom:34%;
-    }
-}
-.button{
-    &-content{
-        position:absolute;
-        z-index:6;
-        left:22%;
-        bottom:34%;
-    }
-    &-sharp{
-        position:absolute;
-        z-index: 5;
-        left:0%;
-        max-height:34px;
-        left:16%;
-        bottom:36%;
-    }
-    &-play{
-        position:absolute;
-        max-height:16px;
-        z-index: 6;
-        left: 18%;
-        bottom: 37%;
-    }
+    position:relative;
 }

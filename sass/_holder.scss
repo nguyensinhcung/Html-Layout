@@ -6,3 +6,30 @@
         filter:blur(20em);
     }
 }
+@media only screen and (max-width:980px) {
+    .holder{
+        margin-bottom:18em;
+        &-item{
+            text-align:center;
+        }
+        &-image{
+            // display: flex;
+            // // flex-direction: column;
+            // justify-content:center;
+            // align-content:center;
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+            width:4%;
+        }
+        &-item:nth-child(2){
+            display:none;
+        }
+        &-item:nth-child(4){
+            display:none;
+        }
+        &-item:nth-child(6){
+            display:none;
+        }
+    }
+}

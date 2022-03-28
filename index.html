@@ -12,25 +12,25 @@
 </head>
 
 <body>
-    <header class="header mb-5 container ">
-        <div class="header-container pt-3">
-            <div class="header-top d-flex justify-content-center mb-4">
-                <img src="./images/banner.png" class="header-logo fs-16" />
-                <ul class="menu d-flex mt-1">
-                    <li class="menu-item mx-4"><a href="#!" class="menu-link white-color">Home</a></li>
-                    <li class="menu-item mx-4"><a href="#!" class="menu-link white-color">Governance</a></li>
-                    <li class="menu-item mx-4"><a href="#!" class="menu-link fw-lighter white-color">Land</a></li>
-                    <li class="menu-item mx-4"><a href="#!" class="menu-link yellow-color ">APS</a></li>
-                    <li class="menu-item mx-4"><a href="#!" class="menu-link fw-lighter white-color">Marketplace</a>
-                    </li>
-                    <li class="menu-item mx-4"><a href="#!" class="menu-link white-color">Help</a></li>
+    <header class="header mb-5 container-fluid  ">
+        <div class="header-container pt-3 container">
+            <div class="header-top  d-xl-flex justify-content-evenly row">
+                <img src="./images/banner.png" class="header-logo fs-16 col-lg-2" />
+                <ul class="header-menu d-flex mt-3 col-md-5  mx-2">
+                    <li class="menu-item mx-md-4"><a href="#!" class="menu-link white-color">Home</a></li>
+                    <li class="menu-item mx-md-2"><a href="#!" class="menu-link white-color">Governance</a></li>
+                    <li class="menu-item mx-md-2"><a href="#!" class="menu-link fw-lighter white-color">Land</a></li>
+                    <li class="menu-item mx-md-2"><a href="#!" class="menu-link yellow-color ">APS</a></li>
+                    <li class="menu-item mx-md-2"><a href="#!" class="menu-link fw-lighter white-color">Marketplace</a></li>
+                    <li class="menu-item mx-md-3"><a href="#!" class="menu-link white-color">Help</a></li>
                 </ul>
-                <div class="header-buttons d-flex ">
-                    <a href='#!' class="header-button pe-3 text-center my-2 text-decoration-none">
+                <div class="header-buttons d-flex col-lg-4 m-2">
+                    <a href='#!' class=" pe-3 text-center my-2 text-decoration-none">
                         <img src="./images/discord1.svg" class="header-discord d-inline-block" alt="discord">
                         <span class="fs-12 white-color">Join our Discord</span>
                     </a>
-                    <a href="#!" class="header-button btn btn-warning text-center px-5 border fs-4">Play</a>
+                    <p class="text-center fs-3 "><a href="#!"
+                            class="btn header-button btn-warning px-5 fw-bold">Play</a></p>
                 </div>
             </div>
         </div>
@@ -40,53 +40,75 @@
             </div>
             <div class="header-content text-center white-color">
                 <h1 class="fs-64">Alpha Petto Shells</h1>
-                <p class="mp-1">Alpha Petto Shells (APS) are an ERC 20 utility token of the Pettoverse. Holders will
-                    participate in the decision-making of the future of Petto supporting game evolution and deciding on
+                <brparticipate class=" px-0 fs-5 lh-base">Alpha Petto Shells (APS) are an ERC 20 utility token of the
+                    Pettoverse. Holders will
+                    <br />participate in the decision-making of the future of Petto supporting game <br />evolution and
+                    deciding on
                     the allocation of a community treasury.</p>
             </div>
         </div>
     </header>
-    <main class="container comme">
+    <main class="comme">
         <hr class="space-color" />
-        <div class="comme-title text-center fs-2 white-color ">
+        <div class="comme-title text-center container-fluid fs-2 white-color ">
             What is APS<span class="space1-color">→</span>What is APS<span class="space1-color">→</span
                 class="space1-color">What is APS<span class="space1-color">→</span>What is APS<span
                 class="space1-color">→</span>What is APS<span class="space1-color">→</span> What is APS<span
-                class="space1-color">→</span>
+                class="space1-color">→</span> What is APS<span class="space1-color">→</span> What is APS<span
+                class="space1-color">→</span> What is APS<span class="space1-color">→</span>
         </div>
-        <hr class="space-color" />
-        <div class="comme-info white-color d-flex fs-5 lh-base row">
-            <div class="comme-content col-5">
-                <p>APS is the native token across the Pettoverse. APS can only be earned within the Pettoverse and it’s
-                    crucial to the entire game experience and benefits.</p>
-            </div>
-            <div class="comme-content col-2">
-                <img src="./images/space.png" alt="" class="comme-space mx-5" />
-            </div>
-            <div class="comme-content col-5">
-                <p>APS has a capped total supply and can be exchanged on decentralized marketplaces. Also, APS is a
-                    payment and governance token that can be staked to receive frequent rewards!</p>
+        <hr class="space-color main-none" />
+        <div class="container">
+            <div class="comme-info white-color  d-flex fs-5 lh-base row">
+                <div class="comme-content col-lg-5">
+                    <p>APS is the native token across the Pettoverse. APS can only be earned within the Pettoverse and
+                        it’s
+                        crucial to the entire game experience and benefits.</p>
+                </div>
+                <div class="comme-content col-lg-2 main-none">
+                    <img src="./images/space.png" alt="" class="comme-space mx-5" />
+                </div>
+                <div class="comme-content col-lg-5">
+                    <p>APS has a capped total supply and can be exchanged on decentralized marketplaces. Also, APS is a
+                        payment and governance token that can be staked to receive frequent rewards!</p>
+                </div>
             </div>
         </div>
-        <hr class="space-color" />
+        <hr class="space-color main-none" />
     </main>
-    <section class="section-info white-color container d-flex justify-content-around ">
-        <div class="section-content me-5">
-            <h4>Governance</h4>
-            <p class="fs-6">APS token holders have the right to participate in governance voting and decision-making to
-                help shape the future of the Pettoverse.</p>
-        </div>
-        <div class="section-content me-5">
-            <h4>Payment</h4>
-            <p class="fs-6">Players can use the APS token to conduct payments inside the Pettoverse for unlocking the
-                Premium features, territories, and game assets.</p>
-        </div>
-        <div class="section-content me-5">
-            <h4>Staking</h4>
-            <p class="fs-6">Holders can stake the APS that allows them to earn monthly rewards.</p>
+    <section class="section-info white-color container">
+        <div class="row">
+            <div class="section-content col-lg-4">
+                <h4 class="fs-1">Governance</h4>
+                <div class="lh-base fs-5">
+                    <p>APS token holders have the right to</p>
+                    <p>participate in governance voting </p>
+                    <p>and decision-making tohelp shape </p>
+                    <p>the future of the Pettoverse.</p>
+                </div>
+            </div>
+            <div class="section-content col-lg-4">
+                <h4 class="fs-2">Payment</h4>
+                <div class="lh-base fs-5">
+                    <p>Players can use the APS token to</p>
+                    <p>conduct payments inside the</p>
+                    <p>Pettoverse for unlocking the Premium</p>
+                    <p>features, territories, and game assets.</p>
+                </div>
+            </div>
+            <div class="section-content col-lg-4">
+                <h4 class="fs-2">Staking</h4>
+                <div class="lh-base fs-5">
+                    <p>Holders can stake the APS that</p>
+                    <p>allows them to earn monthly</p>
+                    <p> rewards.</p>
+                </div>
+            </div>
+            <!-- <div class="section-content "></div>
+            <div class="section-content"></div> -->
         </div>
     </section>
-    <section class="token container my-5  white-color">
+    <section class="token container  my-5  white-color">
         <div class="token-content text-center fs-1 fw-blod">
             Token Metrics
         </div>
@@ -94,156 +116,141 @@
             <div class="token-image1"></div>
             <div class="token-image2"></div>
         </div> -->
-        <div class="token-info d-flex justify-content-evenly text-center my-5">
-            <div class="info-item">
-                <img src="images/crirle2.png" class="info-image" />
-            </div>
-            <div class="info-item">
+        <div class="token-info d-flex justify-content-evenly algin-item-center mx-5 text-center row">
+
+            <div class="info-item col-lg-3">
                 <img src="images/crirle3.png" class="info-image" />
                 <div class="info-content">
                     <h4 class="fw-lighter">Total Supply</h4>
                     <p class="fs-32">500,000,000</p>
                 </div>
             </div>
-            <div class="info-item">
+            <div class="info-item col-lg-3">
                 <img src="images/crirle1.png" class="info-image" />
                 <div class="info-content">
                     <h4 class="fw-lighter fs-19">Token Standard</h4>
                     <p class="fs-32">ERC-20</p>
                 </div>
             </div>
-            <div class="info-item">
+            <div class="info-item col-lg-3">
                 <img src="images/crirle2.png" class="info-image" />
                 <div class="info-content">
                     <h4 class="fw-lighter fs-19">Blockchain</h4>
                     <p class="fs-32">Polygon</p>
                 </div>
             </div>
-            <div class="info-item ">
-                <img src="images/crirle3.png" class="info-image" />
-            </div>
         </div>
     </section>
-    <section class="container comme white-color">
+    <section class="comme white-color">
         <hr class="space-color" />
-        <div class="comme-title text-center fs-2  ">
+        <div class="comme-title text-center fs-2 container-fluid ">
             Benefits for APS Holder<span class="space1-color">→</span>Benefits for APS Holder <span
                 class="space1-color">→</span>Benefits for APS Holder<span class="space1-color">→</span>Benefits for APS
             Holder<span class="space1-color">→</span>Benefits for APS Holder <span class="space1-color">→</span>
         </div>
         <hr class="space-color" />
-        <div class="comm-info d-flex fs-6 lh-base row">
-            <div class="comme-content col-5">
-                <p>APS holders will receive rewards, access to exclusive benefits in the metaverse, and the right to
-                    effect changes of further ecosystem development.</p>
+        <div class="container">
+            <div class="comm-info d-flex fs-6 lh-base row">
+                <div class="comme-content col-lg-5">
+                    <p>APS holders will receive rewards, access to exclusive benefits in the metaverse, and the right to
+                        effect changes of further ecosystem development.</p>
 
-            </div>
-            <div class="comme-content col-2 ">
-                <!-- <img src="./images/space.png" alt="" class="comme-holder mx-5  "/> -->
-            </div>
-            <div class="comme-content col-5">
-                <img src="images/holdspace.png" style="height:7em" alt="holder space" />
+                </div>
+                <div class="comme-content col-2 ">
+                    <!-- <img src="./images/space.png" alt="" class="comme-holder mx-5  "/> -->
+                </div>
+                <div class="comme-content col-lg-5">
+                    <img src="images/holdspace.png" style="height:7em" alt="holder space" />
+                </div>
             </div>
         </div>
         <hr class="space-color" />
-        <div class="holder row">
-            <div class="hloder-item col-2">
-                <img src="images/database.png" alt="space" />
-                <p>Eligable for upcoming airdrops of NFTs and rewards for all token holdlers</p>
-            </div>
-            <div class="holder-item col-1">
-                <img src="images/space.png" class="mx-5" />
-            </div>
-            <div class="holder-item col-2">
-                <img src="images/document.png" alt="space" />
-                <p>Whitelisted for upcoming character drops</p>
-            </div>
-            <div class="holder-item col-1">
-                <img src="images/space1.png" class="mx-5 holder-space" />
-            </div>
-            <div class="holder-item col-2">
-                <img src="images/calendar.png" alt="space" />
-                <p>Eearly Access to Pettoverse games and events</p>
-            </div>
-            <div class="holder-item col-1">
-                <img src="images/space.png" class="mx-5" />
-            </div>
-            <div class="holder-item col-2">
-                <img src="images/cloud.png" alt="space" />
-                <p>Staking Rewards</p>
+        <div class="container">
+            <div class="holder row">
+                <div class="holder-item col-lg-2 ">
+                    <img src="images/database.png" alt="space" class="py-3 holder-image" />
+                    <p>Eligable for upcoming airdrops of NFTs and rewards for all token holdlers</p>
+                </div>
+                <div class="holder-item col-lg-1">
+                    <img src="images/space.png" class="mx-5" class="py-3" />
+                </div>
+                <div class="holder-item col-lg-2 ">
+                    <img src="images/document.png" alt="space" class="py-3 holder-image" />
+                    <p>Whitelisted for upcoming character drops</p>
+                </div>
+                <div class="holder-item col-1">
+                    <img src="images/space1.png" class="mx-5 holder-space" />
+                </div>
+                <div class="holder-item col-lg-2  ">
+                    <img src="images/calendar.png" alt="space " class="py-3 holder-image" />
+                    <p>Eearly Access to Pettoverse games and events</p>
+                </div>
+                <div class="holder-item col-1">
+                    <img src="images/space.png" class="mx-5" />
+                </div>
+                <div class="holder-item col-lg-2 ">
+                    <img src="images/cloud.png" alt="space " class="py-3 holder-image" />
+                    <p>Staking Rewards</p>
+                </div>
             </div>
         </div>
     </section>
-    <section class=" play white-color container">
-        <div class="play-title container  fs-1">
+    <section class=" play white-color container-fluid">
+        <div class="play-title  fs-1">
             <h1>Play to Earn</h1>
         </div>
-        <div class="play-content mt-6 row">
-            <div class="play-image col-6 ">
-                <div class="image-main">
-                    <img src="images/imgplay.png" alt="image earn" class="image-earn">
-                    <div class="image-noun">
-                        <img src="images/play1.png" class="image-noun1" />
-                        <img src="images/play2.png" class="image-noun2" />
-                        <img src="images/play3.png" class="image-noun3" />
+        <div class="container">
+            <div class="play-content mt-6 row">
+                <div class="play-image col-lg-6">
+                    <img src="images/iconplay.png" alt="image earn" class="image-earn ">
+                </div>
+                <div class="play-content col-lg-6 fs-5 lh-base mt-6">
+                    <div class="content-info ">
+                        <div class="info-digit yellowtwo-color fs-3">01 /</div>
+                        <p class="fs-5">APS token holders have the right to<br /> participate in governance voting<br />
+                            and decision-making to help
+                            <br /> shape the future of the Pettoverse.
+                        </p>
                     </div>
-                    <div class="image-background">
-                        <img src="images/Logo1.png" alt="image  logo" class="image-logo" />
-                        <img src="images/backgorundbutton.png" alt="button" class="image-play" />
-                        <div class="image-button">
-                            <button class="btn">
-                                <img src="images/button1.png" alt="button click" class="button-play" />
-                                <img src="images/sharp.png" alt="background sharp" class="button-sharp" />
-                            </button>
-                            <div class="col-6 button-content lh-base me-1 d-block">
-                                <div class="fs-5">Slide to</div>
-                                <div class="fs-4">Turn On</div>
-                            </div>
-                        </div>
+                    <div class="content-info">
+                        <div class="info-digit mt-5 blue-color fs-3">02 /</div>
+                        <p class="fs-5">Players can use he APS token to<br /> conduct payments inside the<br />
+                            Pettoverse for unlocking the Premium<br />features, territories, and game assets.</p>
                     </div>
-                </div>
-            </div>
-            <div class="play-content col-6 fs-5 lh-base mt-6">
-                <div class="content-info ">
-                    <div class="info-digit yellowtwo-color">01 /</div>
-                    <p>APS token holders have the right to participate in governance voting and decision-making to help
-                        shape the future of the Pettoverse.</p>
-                </div>
-                <div class="content-info">
-                    <div class="info-digit mt-5 blue-color">02 /</div>
-                    <p>Players can use he APS token to conduct payments inside the Pettoverse for unlocking the Premium
-                        features, territories, and game assets.</p>
-                </div>
-                <div class="content-info mt-5 ">
-                    <div class="info-digit pink-color">03 /</div>
-                    <p>Holders can stake the APS that allows them to earn monthly rewards.</p>
+                    <div class="content-info mt-5 fs-3">
+                        <div class="info-digit pink-color">03 /</div>
+                        <p class="fs-5">Holders can stake the APS that<br /> allows them to earn monthly <br />rewards.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="container comme white-color">
+    <section class=" comme white-color">
         <hr class="space-color" />
-        <div class="comme-title text-center fs-2  ">
+        <div class="comme-title text-center fs-2 container-fluid ">
             Token Allocation & Distributions <span class="space1-color">→</span>Token Allocation & Distributions <span
                 class="space1-color">→</span>Token Allocation & Distributions <span class="space1-color">→</span>Token
             Allocation & Distributions <span class="space1-color">→</span>Token Allocation & Distributions <span
                 class="space1-color">→</span>
         </div>
         <hr class="space-color" />
-        <div class="chart-token row">
-            <div class="chart-cicler col-5">
-                <div class="chart-content">
-                    <h4 class="fw-lighter">Token</h4>
-                    <h2>Allocation</h2>
+        <div class="container">
+            <div class="chart-token row">
+                <div class="chart-cicler col-lg-5 col-md-12">
+                    <div class="chart-content">
+                        <h4 class="fw-lighter">Token</h4>
+                        <h2>Allocation</h2>
+                    </div>
+                    <img src="images/chartcircle.svg" class="chart-cr" alt="" />
                 </div>
-                <img src="images/chartcircle.svg" class="chart-cr" alt="" />
-            </div>
-            <div class="chart-space col-2">
-                <img src="images/space1.png" alt="" class="mx-5" />
-            </div>
-            <div class="chart-cover col-5">
-                <h3>Token Release Schedule</h3>
-                <img src="images/chartcover.svg" alt="" />
+                <div class="chart-space col-lg-2">
+                    <img src="images/space1.png" alt="" class="mx-5 " />
+                </div>
+                <div class="chart-cover col-lg-5  col-md-12">
+                    <h3>Token Release Schedule</h3>
+                    <img src="images/chartcover.svg" alt="" />
+                </div>
             </div>
         </div>
     </section>
@@ -251,39 +258,42 @@
         <div class="available-title text-center ">
             <h1>Available On</h1>
         </div>
-            <div class="available-list d-flex justify-content-around align-items-center text-center">
-                <div class="available-item ">
-                    <img src="images/logouniwap.png" class="available-image"/>
+        <div class="row">
+            <div class="available-list d-lg-flex  justify-content-evenly align-items-lg-center  text-center h-100 ">
+                <div class="available-item mx-1 col-lg-4 col-md-6 align-self-center">
+                    <img src="images/logouniwap.png" class="available-image p-4 text-center" />
                 </div>
-                <div class="available-item ">
-                    <img src="images/logobinancer.png"  class="available-image"/>
+                <div class="available-item mx-1  col-lg-4 col-md-6 align-self-center">
+                    <img src="images/logobinancer.png" class="available-image  text-center p-4" />
                     <p>comming on </p>
                 </div>
-                <div class="available-item ">
-                    <img src="images/logoc.png"  class="available-image" />
-                    <img src="images/coin.png"   class="available-image" />
+                <div class=" available-item mx-1  col-lg-4 col-md-6 align-self-center">
+                    <div class="text-center p-4">
+                        <img src="images/logoc.png" class="available-image" />
+                        <img src="images/coin.png" class="available-image available-coin " />
+                    </div>
                     <p>comming on </p>
                 </div>
             </div>
         </div>
     </section>
-    <footer class="footer container d-block my-5">
-        <div class="footer-main d-flex justify-content-around white-color ">
-            <div class="footer-item">
+    <footer class="footer container my-5 ">
+        <div class="footer-main d-flex justify-content-between white-color row">
+            <div class="footer-item col-lg-2">
                 <img src="images/Logo1.png" alt="" />
             </div>
-            <div class="footer-item">
+            <div class="footer-item col-lg-2 col-md-12">
                 <div>Home Page</div>
                 <div> About Us</div>
             </div>
-            <div class="footer-item">
+            <div class="footer-item col-lg-2 col-md-12">
                 <div>Terms & Conditions</div>
                 <div>Privacy Policy</div>
             </div>
-            <div class="footer-item">
-                <img src="images/icondiscoreandtwitter.png" />
+            <div class="footer-item col-lg-1 col-md-12">
+                <img src="images/icondiscoreandtwitter.png" class="footer-icon" alt="footer-icon" />
             </div>
-            <div class="footer-item">
+            <div class="footer-item col-lg-1 col-md-12">
                 <img src="images/footericon.png" />
             </div>
         </div>

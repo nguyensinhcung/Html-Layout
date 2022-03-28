@@ -1,6 +1,5 @@
 .token{
     position:relative;
-    
     &::after{
         display: block;
         content:"";
@@ -41,7 +40,14 @@
     }
     &-content{
         position:relative;
-        left:0%;
-        bottom:41%;
+        left:16%;
+        bottom:50%;
+    }
+}
+@media only screen and (max-width:960px){
+    .info{
+        &-image{
+            
+        }
     }
 }

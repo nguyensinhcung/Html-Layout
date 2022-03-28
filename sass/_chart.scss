@@ -9,3 +9,19 @@
         transform: translateY(260%);
     }
 }
+@media only screen and (max-width:960px) {
+    .chart {
+        &-space:nth-child(2){
+            display:none;
+        }
+        &-content{
+            position:absolute;
+            right:47%;
+            margin:0 auto;
+            transform: translateY(330%);
+        }
+        &-cr{
+            margin-bottom: 20px;
+        }
+    }
+}
